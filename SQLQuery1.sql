@@ -8,3 +8,6 @@ select * from Employees
 
 
 select U.Name[User's Name],R.Name[Role Name],U.IsActive from Users U left join UserRoles UR on U.Id=UR.UserId left join Roles R on UR.RoleId = R.Id order by UR.Id
+
+
+select * from Users U left join userRoles ur on U.Id=ur.UserId
