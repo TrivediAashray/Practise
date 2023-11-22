@@ -25,5 +25,8 @@ namespace EmployeApiWithAuthentication_Authorization.Interfaces
 
         //Method to Assign Roles to the User
         bool AssignRoleToUser(AddUserRole obj);
+
+        //Method to check Cnoflict while Merging two branches
+        string GetRolebName(Role role);
     }
 }
