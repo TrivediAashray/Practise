@@ -387,6 +387,11 @@ namespace EmployeApiWithAuthentication_Authorization.Services
                                    signingCredentials: signin);
             return token;
         }
+
+        public string  GetRolebName(Role role)
+        {
+            return null;
+        }
     }
 
 
