@@ -1,2 +1,6 @@
 Hi there...!
+<<<<<<< HEAD
 Local Branch Checkin
+=======
+Master Branch Check in
+>>>>>>> 9ed911bfc7ebd9cee4a1a27dfa37cab676272ab6
