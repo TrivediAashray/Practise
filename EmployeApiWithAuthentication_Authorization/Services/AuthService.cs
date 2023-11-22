@@ -387,6 +387,11 @@ namespace EmployeApiWithAuthentication_Authorization.Services
                                    signingCredentials: signin);
             return token;
         }
+
+        public string GetRoleName()
+        {
+            return "Conflict is being Created to test";
+        }
     }
 
 
