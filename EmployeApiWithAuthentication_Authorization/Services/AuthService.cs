@@ -388,9 +388,15 @@ namespace EmployeApiWithAuthentication_Authorization.Services
             return token;
         }
 
+<<<<<<< HEAD
         public string GetRoleName()
         {
             return "Conflict is being Created to test";
+=======
+        public string  GetRolebName(Role role)
+        {
+            return null;
+>>>>>>> f8e982e9284c29c2f2f921c85193913bb5fbfdbd
         }
     }
 
